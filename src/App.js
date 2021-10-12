@@ -1,24 +1,75 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Reducer from './components/Reducer';
-import UI from './components/UI';
+//import Reducer from './components/Reducer';
+//import UI from './components/UI';
 import AddTodo from './component/AddTodo/AddTodo';
 import List from './component/List/List';
+import {Badge} from 'react-bootstrap';
 
 
 function App() {
   return (
     <div className="App">
-   <h1>App Component</h1>
+      <div className="homepage-bgimage">
+ <figure>📝
+ 
+<figcaption><h1>
+    <Badge bg="info">ToDo List✌️</Badge> </h1></figcaption>
+ </figure>
    <AddTodo />
    <List />
    {/* <Reducer />
    <UI /> */}
     </div>
+    </div>
   );
 }
 
+
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // import React from 'react'

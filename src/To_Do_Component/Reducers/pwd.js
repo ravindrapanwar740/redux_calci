@@ -1,6 +1,6 @@
 const initialState={
-   // data:[],
-    pwd:[]
+    data:[],
+  //  pwd:[]
     
 }
 const pwd=(state=initialState,action)=>
